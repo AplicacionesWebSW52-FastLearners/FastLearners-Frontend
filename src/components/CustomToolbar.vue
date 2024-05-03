@@ -1,7 +1,7 @@
 <script>
 import Toolbar from 'primevue/toolbar';
 import Button from 'primevue/button';
-import { useRoute, useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 
 export default {
   components: {
@@ -34,7 +34,7 @@ export default {
     </template>
     <template #end>
       <Button class="p-button-contrast" label="Iniciar Sesión" @click="navigate('/iniciosesion')"></Button>
-      <Button class="p-button-text p-button-raised" label="Crear Cuenta" @click="navigate('/mi-cuenta')"></Button>
+      <Button class="p-button-text p-button-raised" label="Crear Cuenta" @click="navigate('/crearcuenta')"></Button>
     </template>
   </Toolbar>
 </template>
