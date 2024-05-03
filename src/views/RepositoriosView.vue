@@ -23,7 +23,7 @@ export default {
 
 <template>
   <div class="repository-container">
-    <h1>Repositorios</h1>
+    <h1 class="text-section">Repositorios</h1>
     <div v-for="repo in repositories" :key="repo.id" class="repository-item">
       <Card class="card">
         <template #title>
@@ -40,6 +40,13 @@ export default {
 </template>
 
 <style scoped>
+.text-section {
+  max-width: fit-content;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para mejorar la legibilidad */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opcional: Sombra para resaltar el texto del fondo */
+}
 .repository-container {
   max-width: 1200px;
   margin: 0 auto;

@@ -23,7 +23,7 @@ export default {
 
 <template>
   <div class="forum-container">
-    <h1>Foro Estudiantil</h1>
+    <h1 class="text-section">Foro Estudiantil</h1>
     <div v-for="forum in forums" :key="forum.id" class="forum-item">
       <Card class="card">
         <template #header>
@@ -52,6 +52,13 @@ export default {
 
 
 <style scoped>
+.text-section {
+  max-width: fit-content;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para mejorar la legibilidad */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Opcional: Sombra para resaltar el texto del fondo */
+}
 .forum-container {
   max-width: 1200px;
   margin: 0 auto;

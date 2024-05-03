@@ -53,7 +53,7 @@ export default {
 
 <template>
   <div class="subscription-container">
-    <div class="header">
+    <div class="header text-section">
       <h1>Nuestros planes y precios</h1>
       <p>Actualiza para desbloquear acceso a videos educativos, repositorios colaborativos y mucho más.</p>
     </div>
@@ -85,9 +85,16 @@ export default {
 
 
 <style scoped>
+.text-section {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 .subscription-container {
   text-align: center;
-  margin: 40px;
+  margin: 40px auto;
+  max-width: 1400px;
 }
 
 .header h1 {
@@ -107,7 +114,6 @@ export default {
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
   gap: 40px; /* Espacio entre los cards */
   padding: 20px; /* Espacio alrededor del contenedor */
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .p-col {

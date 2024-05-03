@@ -4,8 +4,9 @@ import ForoView from '../views/ForoView.vue'
 import MaterialView from '../views/MaterialView.vue'
 import TutoriasView from '../views/TutoriasView.vue'
 import SuscripcionesView from '../views/SuscripcionesView.vue'
-import MiCuentaView from '../views/MiCuentaView.vue';
+import CrearCuentaView from '../views/CrearCuentaView.vue';
 import RepositoriosView from '../views/RepositoriosView.vue';
+import inicioSesion from "@/views/InicioSesion.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
@@ -16,7 +17,8 @@ const router = createRouter({
     { path: '/material', name: 'material', component: MaterialView },
     { path: '/tutorias', name: 'tutorias', component: TutoriasView },
     { path: '/suscripciones', name: 'suscripciones', component: SuscripcionesView },
-    { path: '/micuenta', name: 'micuenta', component: MiCuentaView },
+    { path: '/iniciosesion', name: 'iniciosesion', component:inicioSesion},
+    { path: '/crearcuenta', name: 'crearcuenta', component: CrearCuentaView },
   ]
 });
 

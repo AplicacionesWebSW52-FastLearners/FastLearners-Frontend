@@ -28,12 +28,13 @@ export default {
       <Button class="p-button-text" label="Página Principal" @click="navigate('/')"></Button>
       <Button class="p-button-text" label="Foro Estudiantil" @click="navigate('/foro')"></Button>
       <Button class="p-button-text" label="Repositorios" @click="navigate('/repositorios')"></Button>
-      <Button class="p-button-text" label="Portal de Material Multimedia" @click="navigate('/material')"></Button>
+      <Button class="p-button-text" label="Material Multimedia" @click="navigate('/material')"></Button>
       <Button class="p-button-text" label="Tutorías" @click="navigate('/tutorias')"></Button>
       <Button class="p-button-text" label="Planes de Suscripción" @click="navigate('/suscripciones')"></Button>
     </template>
     <template #end>
-      <Button class="p-button-text p-button-raised" label="Mi Cuenta" @click="navigate('/mi-cuenta')"></Button>
+      <Button class="p-button-contrast" label="Iniciar Sesión" @click="navigate('/iniciosesion')"></Button>
+      <Button class="p-button-text p-button-raised" label="Crear Cuenta" @click="navigate('/mi-cuenta')"></Button>
     </template>
   </Toolbar>
 </template>
@@ -50,8 +51,8 @@ h1 {
 }
 .p-button-text {
   text-decoration: none;
-  color: #FFFFFF; /* Texto blanco */
-  background-color: #1976D2; /* Fondo azul */
+  color: #FFFFFF;
+  background-color: #1976D2;
   padding: 10px 20px;
   border-radius: 5px; /* Bordes redondeados */
   margin-right: 10px; /* Espacio entre botones */
@@ -63,6 +64,12 @@ h1 {
 }
 .p-button-text:hover {
   background-color: #135CA3; /* Color más oscuro al hacer hover */
+}
+.p-button-contrast{
+  background-color: #577298;
+}
+.p-button-contrast:hover{
+  background-color: #000000;
 }
 .p-toolbar {
   display: flex;
