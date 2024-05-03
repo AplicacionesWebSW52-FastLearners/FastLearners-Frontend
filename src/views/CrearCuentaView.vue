@@ -49,10 +49,11 @@ export default {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 .signUp-header{
   color: #ffffff;
-
 }
+
 .signUp-input {
   width: 100%;
   margin-bottom: 15px;

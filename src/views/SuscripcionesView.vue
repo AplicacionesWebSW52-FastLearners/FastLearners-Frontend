@@ -98,8 +98,7 @@ export default {
 }
 
 .header h1 {
-  font-size: 32px;
-  color: #333;
+
 }
 
 .header p {

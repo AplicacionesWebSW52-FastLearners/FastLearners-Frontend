@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
+import { useRouter } from 'vue-router';
 
 export default {
   name: "InicioSesion",
@@ -12,21 +13,26 @@ export default {
   setup() {
     const email = ref('');
     const password = ref('');
-    return { email, password };
+    const router = useRouter();
+    const navigate = (path) => {
+      router.push(path);
+    };
+
+    return {navigate,  email, password };
+
   }
 }
 </script>
 
 <template>
   <div class="login-container">
-    <h2>Iniciar Sesión</h2>
+    <h2 class="login-header">Iniciar Sesión</h2>
     <InputText v-model="email" placeholder="Correo electrónico" class="login-input" />
     <InputText v-model="password" type="password" placeholder="Contraseña" class="login-input" />
-    <Button label="Ingresar" class="login-button"></Button>
+    <Button label="Ingresar" class="login-button" @click="navigate('/foro')"></Button>
     <a href="#" class="forgot-link">¿Olvidaste tu contraseña?</a>
   </div>
 </template>
-
 
 <style scoped>
 .login-container {
@@ -37,6 +43,10 @@ export default {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.login-header{
+  color: #ffffff;
 }
 
 .login-input {

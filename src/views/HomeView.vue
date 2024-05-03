@@ -1,10 +1,14 @@
 <script>
+import { useRouter } from 'vue-router';
+
 export default {
   name: "HomeView",
-  data() {
-    return {
-
+  setup(){
+    const router = useRouter();
+    const navigate = (path) => {
+      router.push(path);
     };
+    return {navigate};
   }
 }
 </script>
@@ -14,7 +18,7 @@ export default {
     <div class="text-section">
       <h1>Accede a repositorios de todo el mundo y capacítate con expertos</h1>
       <p>Aprende de los mejores e interactúa con otros programadores como tú</p>
-      <button class="primary-button">Comienza ahora</button>
+      <button class="primary-button" @click="navigate('/iniciosesion')">Comienza ahora</button>
     </div>
   </div>
 </template>
