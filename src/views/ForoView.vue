@@ -7,7 +7,7 @@ export default {
 <template>
   <div>
     <h1>Foro Estudiantil</h1>
-    <p>Contenido del foro...</p>
+    <p>Contenido del Foro</p>
   </div>
 </template>
 

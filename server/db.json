@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "id": 1,
+      "category": "JavaScript Basics",
+      "description": "Basics concepts of JavaScript",
+      "files": 9
+    },
+    {
+      "id": 2,
+      "category": "Python Basics",
+      "description": "Fundamental concepts and syntax of Python programming",
+      "files": 9
+    },
+    {
+      "id": 3,
+      "category": "C# Fundamentals",
+      "description": "Core principles of C# for beginners, including basic operations and environment setup",
+      "files": 12
+    },
+    {
+      "id": 4,
+      "category": "Java Collections Framework",
+      "description": "Detailed exploration of Java collections, including Lists, Maps, and Sets",
+      "files": 15
+    },
+    {
+      "id": 5,
+      "category": "Ruby on Rails Overview",
+      "description": "Introduction to Ruby on Rails, covering MVC architecture, routing, and database integration",
+      "files": 10
+    }
+  ]
+}

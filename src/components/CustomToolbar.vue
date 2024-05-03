@@ -27,6 +27,7 @@ export default {
     <template #center>
       <Button class="p-button-text" label="Página Principal" @click="navigate('/')"></Button>
       <Button class="p-button-text" label="Foro Estudiantil" @click="navigate('/foro')"></Button>
+      <Button class="p-button-text" label="Repositorios" @click="navigate('/repositorios')"></Button>
       <Button class="p-button-text" label="Portal de Material Multimedia" @click="navigate('/material')"></Button>
       <Button class="p-button-text" label="Tutorías" @click="navigate('/tutorias')"></Button>
       <Button class="p-button-text" label="Planes de Suscripción" @click="navigate('/suscripciones')"></Button>
