@@ -62,5 +62,37 @@
       "description": "Introduction to Ruby on Rails, covering MVC architecture, routing, and database integration",
       "files": 10
     }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "category": "JavaScript Basics",
+      "author": "Juan Perez",
+      "files": 5
+    },
+    {
+      "id": 2,
+      "category": "React Components",
+      "author": "Maria Rodriguez",
+      "files": 8
+    },
+    {
+      "id": 3,
+      "category": "Vue.js Projects",
+      "author": "Pedro Gomez",
+      "files": 6
+    },
+    {
+      "id": 4,
+      "category": "Node.js Development",
+      "author": "Ana Martinez",
+      "files": 10
+    },
+    {
+      "id": 5,
+      "category": "HTML & CSS Fundamentals",
+      "author": "Luis Hernandez",
+      "files": 7
+    }
   ]
 }
