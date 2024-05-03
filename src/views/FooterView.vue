@@ -40,6 +40,7 @@ export default {
   background-color: #333;
   color: white;
   padding: 20px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }

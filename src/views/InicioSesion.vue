@@ -30,6 +30,8 @@ export default {
 
 <style scoped>
 .login-container {
+  text-align: center;
+  background-color: #1976d2;
   max-width: 300px;
   margin: 50px auto;
   padding: 20px;
@@ -53,7 +55,7 @@ export default {
   display: block;
   text-align: center;
   margin-top: 10px;
-  color: #0077ff;
+  color: #00f3ff;
   text-decoration: none;
 }
 </style>

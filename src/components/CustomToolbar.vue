@@ -75,6 +75,5 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* Padding alrededor de la barra de herramientas */
 }
 </style>
