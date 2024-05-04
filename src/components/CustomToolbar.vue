@@ -21,7 +21,7 @@ export default {
 <template>
   <Toolbar class="p-toolbar">
     <template #start>
-      <img src="/LogoPrincipal.svg" alt="Logo" class="logo" />
+      <img src="/LogoPrincipal.svg" alt="FastLearners Logo" class="logo" />
       <h1>FastLearners</h1>
     </template>
     <template #center>

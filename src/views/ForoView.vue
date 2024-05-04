@@ -32,7 +32,7 @@ export default {
               <div class="forum-title">{{ forum.title }}</div>
               <p>{{ forum.description }}</p>
             </div>
-            <img :src="forum.image" alt="Forum Image" class="forum-image">
+            <img :src="forum.image" alt="Student Forum Image" class="forum-image">
             <div class="forum-initiator">
               <span class="initiator-name">By {{ forum.lastPoster }}</span><br>
               <span class="initiator-time">{{ forum.lastPostTime }}</span>
