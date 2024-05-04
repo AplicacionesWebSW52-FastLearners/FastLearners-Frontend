@@ -10,6 +10,8 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Using Json Server (Local server)
+See [JSON Server](https://github.com/typicode/json-server/tree/v0).
 ## Project Setup
 
 ```sh
